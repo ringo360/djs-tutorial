@@ -4,11 +4,15 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://djs-docs.pages.dev',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Discord.js Tutorial',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/ringo360/djs-docs',
+			},
+			editLink: {
+				baseUrl: 'https://github.com/ringo360/djs-docs/edit/master/',
 			},
 			sidebar: [
 				{
